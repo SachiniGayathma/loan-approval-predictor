@@ -1,12 +1,15 @@
 📊 Credit Default Prediction using Machine Learning
 
-🚀 This project focuses on predicting whether a customer is likely to default on credit using multiple machine learning algorithms. The goal is to analyze customer financial data and build predictive models to support risk assessment and decision-making in financial institutions.
+🚀 This project focuses on predicting whether a customer is likely to default on credit using machine learning algorithms. It helps in financial risk assessment and decision-making.
 
 📌 Project Overview
 
-Credit default prediction is a critical problem in the financial domain. Incorrect predictions can lead to financial losses or missed opportunities.
+Credit default prediction is a critical task in the financial domain. Incorrect predictions can lead to:
 
-This project applies different supervised learning algorithms to the German Credit Dataset to classify customers into:
+💸 Financial losses
+⚠️ Poor lending decisions
+
+This project classifies customers into:
 
 ✅ Non-Default (Good Credit Risk)
 ❌ Default (Bad Credit Risk)
@@ -15,17 +18,14 @@ This project applies different supervised learning algorithms to the German Cred
 📁 German Credit Dataset
 
 🔗 Dataset Link:
-http://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+👉 UCI German Credit Dataset
 
-The dataset contains:
-
+📊 Dataset Features:
 👤 Customer demographic details
 💰 Financial information
 📊 Credit history
 ⏳ Loan duration and amount
-
-🔎 The target variable:
-
+🎯 Target Variable:
 0 → No Default
 1 → Default
 ⚙️ Technologies Used
@@ -34,21 +34,12 @@ The dataset contains:
 📊 Matplotlib
 🤖 Scikit-learn
 🧠 Machine Learning Models
-
-The following algorithms were implemented:
-
 🌳 Decision Tree
 📍 K-Nearest Neighbors (KNN)
 📈 Logistic Regression
 ⚡ Gradient Boosting
 🔄 Workflow
-📥 Data Loading
-🧹 Data Preprocessing
-Handling categorical variables (One-Hot Encoding)
-Feature transformation
-✂️ Train-Test Split
-🤖 Model Training
-📊 Model Evaluation
+Data → Preprocessing → Train/Test Split → Model Training → Evaluation
 📊 Evaluation Metrics
 🎯 Accuracy
 🔍 Precision
@@ -56,24 +47,20 @@ Feature transformation
 ⚖️ F1-Score
 📉 ROC-AUC
 📌 Key Insights
-🌳 Decision Tree → High recall (detects defaulters well)
+🌳 Decision Tree → High recall (good at detecting defaulters)
 📍 KNN → Moderate performance
-📈 Logistic Regression → Best balance across metrics
+📈 Logistic Regression → Best overall balance
 ⚡ Gradient Boosting → Highest accuracy
 🧪 Results Summary
-
 Model	Accuracy
-Gradient Boosting	0.73
-Logistic Regression	0.72
-KNN	0.68
-Decision Tree	0.62
-
+⚡ Gradient Boosting	0.73
+📈 Logistic Regression	0.72
+📍 KNN	0.68
+🌳 Decision Tree	0.62
 📂 Project Structure
 📁 Credit-Default-Prediction
 │
-├── 📄 decision_tree.ipynb
-├── 📄 logistic_regression.ipynb
-├── 📄 german_credit_knn.ipynb
-├── 📄 gradient_boosting.ipynb
-
-
+├── decision_tree.ipynb
+├── logistic_regression.ipynb
+├── german_credit_knn.ipynb
+├── gradient_boosting.ipynb
