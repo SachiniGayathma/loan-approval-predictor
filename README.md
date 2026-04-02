@@ -52,11 +52,13 @@ Data → Preprocessing → Train/Test Split → Model Training → Evaluation
 📈 Logistic Regression → Best overall balance
 ⚡ Gradient Boosting → Highest accuracy
 🧪 Results Summary
+
 Model	Accuracy
 ⚡ Gradient Boosting	0.73
 📈 Logistic Regression	0.72
 📍 KNN	0.68
 🌳 Decision Tree	0.62
+
 📂 Project Structure
 📁 Credit-Default-Prediction
 │
