@@ -18,7 +18,7 @@ This project classifies customers into:
 📁 German Credit Dataset
 
 🔗 Dataset Link:
-👉 UCI German Credit Dataset
+👉 http://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
 
 📊 Dataset Features:
 👤 Customer demographic details
