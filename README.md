@@ -13,9 +13,6 @@ This project classifies customers into:
 
 ✅ Non-Default (Good Credit Risk)
 ❌ Default (Bad Credit Risk)
-🗂️ Dataset
-
-📁 German Credit Dataset
 
 🔗 Dataset Link:
 👉 http://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
